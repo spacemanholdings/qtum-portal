@@ -34,7 +34,6 @@ var rpcMethods = map[string]method{
 
 	// == Control ==
 	"getinfo": {true},
-	"getinfo": {true},
 	"getmemoryinfo": {true},
 	"help": {true},
 	"stop": {true},
