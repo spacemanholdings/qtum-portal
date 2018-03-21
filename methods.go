@@ -40,7 +40,7 @@ var rpcMethods = map[string]method{
 	// stop
 
 	// == Generating ==
-	// generate nblocks ( maxtries )
+	"generate": {true},
 	// generatetoaddress nblocks address (maxtries)
 
 	// == Mining ==
@@ -133,7 +133,7 @@ var rpcMethods = map[string]method{
 	"listsinceblock": {true},
 	// listtransactions ( "account" count skip include_watchonly)
 	"listtransactions": {true},
-	// listunspent ( minconf maxconf  ["addresses",...] [include_unsafe] )
+	"listunspent": {true},
 	// lockunspent unlock ([{"txid":"txid","vout":n},...])
 	// DEPRECATED move "fromaccount" "toaccount" amount ( minconf "comment" )
 	// removeprunedfunds "txid"
