@@ -37,7 +37,7 @@ var rpcMethods = map[string]method{
 	"getinfo": {true},
 	"getmemoryinfo": {true},
 	"help": {true},
-	"stop": {true}
+	"stop": {true},
 
 	// == Generating ==
 	"generate": {true},
