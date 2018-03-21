@@ -10,7 +10,7 @@ Since `qtum-portal` serves the HTML5 assets of a DApp, browser's CORS policy wou
 + RPC calls that create transactions or modify `qtumd` state would require user authorization.
 + Operation related RPC calls are diabled. e.g. `dumpwallet`,`clearbanned`, `prioritisetransaction`, etc.
 
-For a list of supported RPC methods, as well as which methods that require user authorization, see: [methods.go](https://github.com/hayeah/qtum-portal/blob/master/methods.go).
+For a list of supported RPC methods, as well as which methods that require user authorization, see: [methods.go](https://github.com/kfichter/qtum-portal/blob/master/methods.go).
 
 # RPC Call Without Authorization
 

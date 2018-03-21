@@ -1,6 +1,6 @@
 package main
 
-import "github.com/hayeah/qtum-portal/cli"
+import "github.com/kfichter/qtum-portal/cli"
 
 func main() {
 	cli.Run()

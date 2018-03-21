@@ -9,10 +9,10 @@ All requests made by a DApp would block until you approve it in the authorizatio
 If you have golang installed, you can install the latest version:
 
 ```
-go get -u github.com/hayeah/qtum-portal/cli/qtumportal
+go get -u github.com/kfichter/qtum-portal/cli/qtumportal
 ```
 
-Or, you can download pre-built binaries from [Releases](https://github.com/hayeah/qtum-portal/releases)
+Or, you can download pre-built binaries from [Releases](https://github.com/kfichter/qtum-portal/releases)
 
 # Running A QTUM DApp
 
@@ -33,7 +33,7 @@ export QTUM_RPC=http://howard:yeh@localhost:13889
 Now we are ready to run the DApp. Clone an example DApp to your local machine:
 
 ```
-$ git clone https://github.com/hayeah/qtum-dapp-getnewaddr.git
+$ git clone https://github.com/kfichter/qtum-dapp-getnewaddr.git
 ```
 
 Use the `serve` command to start a web-server for the DApp:

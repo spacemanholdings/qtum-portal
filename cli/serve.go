@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/hayeah/qtum-portal"
+	"github.com/kfichter/qtum-portal"
 
 	"gopkg.in/alecthomas/kingpin.v2"
 )

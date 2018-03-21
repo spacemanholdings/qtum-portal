@@ -15,7 +15,7 @@ import (
 
 	"github.com/labstack/echo/middleware"
 
-	"github.com/hayeah/qtum-portal/ui"
+	"github.com/kfichter/qtum-portal/ui"
 
 	"github.com/pkg/errors"
 
